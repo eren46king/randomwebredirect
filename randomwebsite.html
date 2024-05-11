@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Random Web Redirect</title>
+  <link rel="stylesheet" href="randomwebsite.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome to the Random Website Redirect</h1>
+    <p>Feeling adventurous? Click the button below to explore a random website!</p>
+    <button onclick="redirectToRandomSite()">Explore</button>
+  </div>
+  <div class="custom-link-container">
+    <a href="https://www.buymeacoffee.com/eren46" class="custom-link">Donate me</a>
+  </div>
+<script>
+    function redirectToRandomSite() {
+      // List of random websites
+      var sites = [
+        'https://www.wikipedia.org',
+        'https://www.openai.com',
+        'https://github.com/eren46king',
+        'https://www.w3schools.com/',
+        'https://scratch.mit.edu/users/happymodapk/',
+        'https://www.youtube.com/channel/UCu2XlYED9-VonQF0rszWeRw',
+        'https://www.deepl.com/translator',
+        'https://paint.toys/',
+        'https://www.windows93.net/',
+        'https://eren46king.github.io/Digital_Notepad/',
+        'https://eren46king.github.io/Rolling-Ball/',
+        'https://www.buymeacoffee.com/eren46',
+        'https://bard.google.com/',
+        'https://chrome.google.com/webstore/detail/custom-cursor-for-chrome/ogdlpmhglpejoiomcodnpjnfgcpmgale',
+        'https://www.apple.com/',
+        'https://www.samsung.com/',
+        'https://www.amazon.com/-/en/dp/B0C2C1PQZD/ref=sr_1_13?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=WRDUL64297WF&keywords=gaming%2BPC&qid=1691224267&refinements=p_36%3A2421884011&rnid=2421879011&sprefix=gaming%2Bpc%2Caps%2C198&sr=8-13&th=1',
+        'https://www.youtube.com/@MrBeast',
+        'https://hackertyper.com/',
+        'http://www.staggeringbeauty.com/',
+        'https://shutupandtakemymoney.com/',
+        'https://apod.nasa.gov/apod/astropix.html',
+        'https://www.duolingo.com/',
+        'https://www.whatshouldireadnext.com/',
+        'https://www.onread.com/',
+        'http://weavesilk.com/',
+        'https://thisissand.com/',
+        'http://orteil.dashnet.org/cookieclicker/',
+        'http://www.dafont.com/',
+        'http://www.tastekid.com/',
+        'https://youtu.be/mA5ShB4EmCo',
+        'http://randomcolour.com/',
+        'https://pointerpointer.com/',
+        'https://boringboringboring.com/',
+        'https://corgiorgy.com/',
+        'https://strobe.cool/',
+        'https://pixelsfighting.com/',
+        'https://freepacman.org',
+        'https://freeflappybird.org',
+        'https://freekong.org',
+        'https://www.crazygames.com',
+        'https://poki.com',
+        'https://www.agame.com',
+        'https://www.1001games.com',
+        'https://www.friv.com',
+        'https://gx.games',
+        'https://classic.minecraft.net/?join=UdhcayOYYmPKFHgy',
+        'https://eren46king.github.io/Grimace_Platformer/',
+        'https://findtheinvisiblecow.com/',
+        'https://www.mapcrunch.com/',
+        'https://papertoilet.com/',
+        'https://shutupandtakemymoney.com/',
+        'https://play2048.co/',
+        'https://play.pokemonshowdown.com/',
+        'https://www.rainymood.com/',
+        'http://flashbynight.com/drench/',
+        'https://codepen.io/akm2/full/AGgarW',
+        
+      
+        // You can add more websites as you like
+      ];
+
+      // Select a random site using Math.random()
+      var randomIndex = Math.floor(Math.random() * sites.length);
+      var randomSite = sites[randomIndex];
+
+      // Redirect to the selected site in a new tab
+      window.open(randomSite, '_blank');
+    }
+  </script>
+</body>
+</html>
